@@ -1,0 +1,42 @@
+body{
+	font-family: arial, sans-serif;
+	background: #0a043c;
+	color: white;
+	text-align: ctnter;
+}
+Button{
+	padding: 10px 20px;
+	background: #4cc9f0;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.game{
+	max-width: 500px;
+	margin: 20 px auto;
+	padding: 20 px;
+	background: #1a1a2e;
+	border-radius: 10px;
+
+}
+.screen{
+	width: 100%;
+	height: 300px;
+	background: #16213e;
+	position: relative;
+	margin: 20px 0;
+	border: 2px solid #4cc9f0;
+	owerflow: hidden;
+}
+.spacesheep{
+	position: absolute;
+	bottom: 10 px;
+	left: 50%;
+	font-size: 30px;
+}
+.teg{
+	position: absolute;
+	font-size: 20px;
+	color: #f72585;
+	font-weight: bold;
